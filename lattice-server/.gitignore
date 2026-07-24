@@ -1,9 +1,11 @@
 # Maven
 target/
+**/target/
 
-# IntelliJ
+# IntelliJ IDEA
 .idea/
-
+**/.idea/
+*.iml
 
 # VS Code
 .vscode/
@@ -23,9 +25,6 @@ Thumbs.db
 # Environment
 .env
 
-# Application secrets (optional)
+# Local application configs
 application-local.yml
 application-local.properties
-
-# Maven Wrapper
-.mvn/wrapper/maven-wrapper.properties
