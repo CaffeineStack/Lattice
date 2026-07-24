@@ -1,34 +1,26 @@
 # Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
 
-# IntelliJ IDEA
+# IntelliJ
 .idea/
 *.iml
-out/
+
+# VS Code
+.vscode/
 
 # Eclipse
 .project
 .classpath
 .settings/
 
-# VS Code
-.vscode/
-
-# Mac
-.DS_Store
-
-# Windows
-Thumbs.db
-
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.swp
+# OS files
+.DS_Store
+Thumbs.db
 
-# Environment variables
+# Environment
 .env
 
 # Application secrets (optional)
