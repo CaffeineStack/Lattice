@@ -1,30 +1,16 @@
-# Maven
-target/
-**/target/
-
-# IntelliJ IDEA
+# IntelliJ
 .idea/
-**/.idea/
 *.iml
+
+# Maven
+**/target/
 
 # VS Code
 .vscode/
 
-# Eclipse
-.project
-.classpath
-.settings/
-
 # Logs
 *.log
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
-
-# Environment
-.env
-
-# Local application configs
-application-local.yml
-application-local.properties
