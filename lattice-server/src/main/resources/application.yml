@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/lattice
+    url: jdbc:postgresql://localhost:5432/Lattice
     username: postgres
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
@@ -12,3 +12,15 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+jwt:
+  secret: your-super-secret-key-that-is-at-least-32-characters-long
+  expiration: 86400000
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+
+

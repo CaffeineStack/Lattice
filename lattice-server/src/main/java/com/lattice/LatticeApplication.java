@@ -1,3 +1,4 @@
+
 package com.lattice;
 
 import org.springframework.boot.SpringApplication;
